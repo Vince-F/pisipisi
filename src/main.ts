@@ -20,7 +20,10 @@ import App from './App.vue';
 i18next
   .use(Backend)
   .init({
-    fallbackLng: "en"
+    fallbackLng: "en",
+    backend: {
+      loadPath: './locales/{{lng}}/{{ns}}.json',
+    }
   });
 
 const store = createPinia();
