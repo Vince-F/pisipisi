@@ -13,6 +13,7 @@ export default defineConfig({
       autoImportComponentCase: "pascal"
     })
   ],
+  base: "./",
   build: {
     outDir: "docs"
   }
