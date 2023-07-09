@@ -1,0 +1,16 @@
+{
+  "petsList": {
+    "addPet": "Add a pet",
+    "createPetTitle": "New pet",
+    "petInputLabel": "Pet name",
+    "needPetName": "You need to enter a pet name"
+  },
+  "petProfile": {
+    "details": "Details",
+    "planning": "Planning",
+    "documents": "Documents",
+    "pictures": "Pictures",
+    "nameLabel": "Name",
+    "veterinaryContact": "Veterinary contact"
+  }
+}
